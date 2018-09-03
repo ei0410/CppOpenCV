@@ -12,9 +12,9 @@ int main(int argc, char *argv[])
 		return -1;
 	}
 	
-	cvtColor(img, gray, CV_RGB2GRAY);
+	cvtColor(img, gray, CV_RGB2GRAY); //グレースケールへ変換
 
-	imshow("raw.png", img);
+	imshow("raw.png", gray);
 
 	waitKey(0);
 	return 0;
