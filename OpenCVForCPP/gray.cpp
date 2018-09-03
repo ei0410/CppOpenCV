@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	
 	cvtColor(img, gray, CV_RGB2GRAY); //グレースケールへ変換
 
-	imshow("raw.png", gray);
+	imshow("gray.png", gray);
 
 	waitKey(0);
 	return 0;
